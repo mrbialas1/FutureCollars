@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74510ae7-7074-4b66-ab54-01bde93ea7ea" name="Changes" comment="Zrobione zadanie z kalkulatora">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson6/calculator/Calculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson6/calculator/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +101,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/FutureCollars" />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="Zrobione zadanie z kalkulatora" />
     <option name="LAST_COMMIT_MESSAGE" value="Zrobione zadanie z kalkulatora" />
   </component>
