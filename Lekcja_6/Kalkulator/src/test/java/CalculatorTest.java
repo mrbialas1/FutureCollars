@@ -6,22 +6,42 @@ public class CalculatorTest {
 
     @Test
     void shouldAddTwoValues1and1() {
-        double sum = Calculator.sum(1, 1);
+        //given
+        int number1 = 1;
+        int number2 = 1;
+        //when
+        double sum = Calculator.sum(number1,number2);
+        //then
         Assertions.assertEquals(2, sum);
     }
     @Test
     void shouldSubtractTwoValues1and1() {
-        double sub = Calculator.sub(1, 1);
+        //given
+        int number1 = 1;
+        int number2 = 1;
+        //when
+        double sub = Calculator.sub(number1,number2);
+        //then
         Assertions.assertEquals(0, sub);
     }
     @Test
     void shouldMultiplyTwoValues1and1() {
-        double mul = Calculator.mul(1, 1);
+        //given
+        int number1 = 1;
+        int number2 = 1;
+        //when
+        double mul = Calculator.mul(number1,number2);
+        //then
         Assertions.assertEquals(1, mul);
     }
     @Test
     void shouldDivideTwoValues1and1() {
-        double div = Calculator.div(1, 1);
+        //given
+        int number1 = 1;
+        int number2 = 1;
+        //when
+        double div = Calculator.div(number1,number2);
+        //then
         Assertions.assertEquals(1, div);
     }
 }
