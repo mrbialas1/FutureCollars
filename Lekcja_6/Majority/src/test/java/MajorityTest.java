@@ -5,17 +5,29 @@ import org.junit.jupiter.api.Test;
 public class MajorityTest {
     @Test
     void shouldBeFalse() {
-        boolean child = Majority.majorityChecking(16);
-        Assertions.assertEquals(false, child);
+        //given
+        int age = 16;
+        //when
+        boolean child = Majority.majorityChecking(age);
+        //then
+        Assertions.assertFalse(child);
     }
     @Test
     void shouldBeTrue() {
-        boolean adult = Majority.majorityChecking(30);
-        Assertions.assertEquals(true, adult);
+        //given
+        int age = 30;
+        //when
+        boolean adult = Majority.majorityChecking(age);
+        //then
+        Assertions.assertTrue(adult);
     }
     @Test
     void shouldBeTrueToo() {
-        boolean newAdult = Majority.majorityChecking(18);
-        Assertions.assertEquals(true, newAdult);
+        //given
+        int age = 18;
+        //when
+        boolean newAdult = Majority.majorityChecking(age);
+        //then
+        Assertions.assertTrue(newAdult);
     }
 }
