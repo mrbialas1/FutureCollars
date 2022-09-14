@@ -18,6 +18,6 @@ public class Main {
             i++;
             table[i] = Calculator.div(number1, number2);
         }
-        System.out.println("Wyniki: dodawanie - "+table[0]+", odejmowanie - "+table[1]+", mnożenie - "+table[2]+" i dzielenie - " +table[3]);
+        System.out.println("Wyniki: dodawanie - " + table[0] + ", odejmowanie - " + table[1] + ", mnożenie - " + table[2] + " i dzielenie - " + table[3]);
     }
 }
